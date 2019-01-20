@@ -46,7 +46,10 @@ body {
     }
   }
 }
-
+.banner img{
+  height: 60vh;
+  background-size: cover !important;
+}
 
 //NAVBAR
 @media only screen and (max-width: 768px) {
@@ -221,7 +224,7 @@ body, html {
 
 .bgimg {
   /* Background image */
-  background-image: url('ux.jpg');
+  background-image: url('ux.jpg') !important;
   /* Full-screen */
   height: 100%;
   /* Center the background image */
@@ -323,8 +326,8 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-   .footer-copyright {
-      font-size: 9px;
-    }
-  }
+ .footer-copyright {
+  font-size: 9px;
+}
+}
 
