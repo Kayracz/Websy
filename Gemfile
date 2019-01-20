@@ -30,6 +30,7 @@ gem 'turbolinks', '~> 5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
 gem 'simple_form'
+gem 'cloudinary', '~> 1.9.1'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
