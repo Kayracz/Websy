@@ -27,12 +27,13 @@ body {
   }
 }
 
-.titleweare h1 {
+.titleweare h1 {;
   font-size: 6em;
   color: #0A1C58;
   background-color: white;
   margin-bottom: 50px;
-  margin-top: 32px;
+  margin-top: 42px;
+  text-align: center;
 
   @media only screen and (max-width: 768px) {
     .titleweare h1 {
@@ -46,10 +47,7 @@ body {
     }
   }
 }
-.banner img{
-  height: 60vh;
-  background-size: cover !important;
-}
+
 
 //NAVBAR
 @media only screen and (max-width: 768px) {
@@ -142,6 +140,7 @@ body {
   margin-bottom: 40px !important;
   text-align: center;
   display: inline-block;
+  text-shadow: 4px 0px 9px white;
 
   h1{
     font-size: 38px;
@@ -220,11 +219,32 @@ body, html {
   height: 90%
 }
 
+.banner img{
+  text-align: center;
+  width: 1440px;
+  height: 662px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner img {
+    height: 410px;
+    width: 377px;
+    // height: 68vh;
+    // width: 63vh;  }
+  }
+}
+
 
 
 .bgimg {
   /* Background image */
-  background-image: url('ux.jpg') !important;
+  // background-image: url('ux.jpg') !important;
   /* Full-screen */
   height: 100%;
   /* Center the background image */
