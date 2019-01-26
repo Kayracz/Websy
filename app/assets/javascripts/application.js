@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
 
 
-var countDownDate = new Date("Jan 27, 2019 15:00:00").getTime();
+var countDownDate = new Date("Jan 31, 2019 15:00:00").getTime();
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
   // Get todays date and time
